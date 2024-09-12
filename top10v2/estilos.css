@@ -1,0 +1,96 @@
+body{
+    background-color: #000000;
+}
+img{
+    width: 55%;    /*Largura da imagem*/
+    height: 45%;   /*Altura da imagem*/
+    opacity: 75%;   /*Transparência da Imagem */
+    border: 2px solid;
+    border-color: #164065ad;
+}
+img:hover{
+    opacity: 100%;
+    border-color: #ffffff;
+}
+#cisnenegro{
+    text-align: center;
+    zoom: 1;
+}
+#cisnenegro:hover{
+    zoom: 1.25;
+}
+#louvadeus{
+    text-align: center;
+    zoom: 1;
+}
+#louvadeus:hover{
+    zoom: 1.25;
+}
+#pantera{
+    text-align: center;
+    zoom: 1;
+}
+#pantera:hover{
+    zoom: 1.25;
+}
+#mico{
+    text-align: center;
+    zoom: 1;
+}
+#mico:hover{
+    zoom: 1.25;
+}
+#coelho{
+    text-align: center;
+    zoom: 1;
+}
+#coelho:hover{
+    zoom: 1.25;
+}
+#cavalomarinho{
+    text-align: center;
+    zoom: 1;
+}
+#cavalomarinho:hover{
+    zoom: 1.25;
+}
+#raposa{
+    text-align: center;
+    zoom: 1;
+}
+#raposa:hover{
+    zoom: 1.25;
+}
+#tigrebranco{
+    text-align: center;
+    zoom: 1;
+}
+#tigrebranco:hover{
+    zoom: 1.25;
+}
+#pandavermelho{
+    text-align: center;
+    zoom: 1;
+}
+#pandavermelho:hover{
+    zoom: 1.25;
+}
+#leopardoneves{
+    text-align: center;
+    zoom: 1;
+}
+#leopardoneves:hover{
+    zoom: 1.25;
+}
+h1{
+    text-align: center; 
+    color: #00ffea
+}
+h2{
+    color: #00ffd0
+}
+p{
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    color: #d4ebeb
+}
