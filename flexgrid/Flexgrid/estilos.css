@@ -1,0 +1,50 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+body {
+    color: paleturquoise;
+    display: grid;
+    grid-template-columns: minmax(min-content, 25vw) 1fr;
+    grid-template-rows: minmax(min-content, 15vh) 1fr;
+    grid-template-areas: 'sidebar header'
+                         'sidebar content';
+}
+.header{
+    background-color: rgb(20, 20, 20);
+    color: paleturquoise;
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+.sidebar{
+    background-color: rgb(20, 20, 20);
+    grid-area: sidebar;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0.5rem;
+    overflow: auto;
+}
+.item{
+    flex: 1;
+    background: rgb(40, 40, 40);
+    padding: 1rem;
+    margin: 0.5rem;
+    height: max-content;
+}
+.item:hover{
+    color: paleturquoise;
+    background-color: rgb(20, 20, 20);
+}
+.content{
+    background-color: rgb(50, 50, 50);
+    color: paleturquoise;
+    grid-area: content;
+    padding-left: 6rem;
+    padding-right: 4rem;
+    padding-top: 2rem;
+}
